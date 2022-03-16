@@ -1,0 +1,32 @@
+.modal__container{
+ background-color: black;
+ height: 70px;
+ width: 100px;
+ display: flex;
+ flex-direction: column;
+ align-items:flex-start;
+ justify-content: center;
+ position: absolute;
+ right: 0;
+ margin-right: 50px;
+ /* margin-top: -40px; */
+ 
+}
+.modal__container>button{
+    border: none;
+    background: none;
+    color: white;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.horizontal__line{
+    width: 96%;
+    border-width: 1px;
+    border-style: solid;
+    background-color: white ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

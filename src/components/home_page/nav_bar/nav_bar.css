@@ -1,0 +1,70 @@
+.navBar__container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    color: white;
+    border-top: 1px solid rgba(128, 128, 128, 0.616)  ;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.616)  ;
+    
+    padding-left: 10px ;
+    padding-right: 10px;
+}
+.nav__links{
+    flex: 2; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-left:20px; */
+    margin-right: 100px;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 20px;
+    
+}
+.nav__links>li{
+    border-right: 1px solid white ;
+    border-left: 1px solid white ;
+    padding: 0 20px;
+}
+.nav__links>li:hover{
+    color: rgb(226,18,122); 
+}
+
+.social__links{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+    margin-right: 20px;
+    color: rgb(226,18,122);
+}
+.social__links>*{
+    margin-left: 25px;
+}
+.social__links>*:hover{
+    color:white; 
+}
+.profile{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    width: 20px ;
+    
+}
+.profile>*{
+    margin-left: 30px;
+}
+@media  screen and (max-width: 500px) {
+    .profile__icon{
+        position: relative; 
+        top: 0; 
+    }
+}

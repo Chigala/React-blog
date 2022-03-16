@@ -1,0 +1,31 @@
+
+.input__container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+   
+    
+    
+}
+input{
+    width: 50%;
+    height: 40px; 
+
+   
+}
+input[type="text"]
+{
+    font-size:24px;
+}
+input:focus{
+    outline: none; 
+}
+
+button{
+    background-color:rgb(226,18,122) ;
+    width: 60px;
+    border: none;
+    color: white;
+    height: 40px; 
+}
